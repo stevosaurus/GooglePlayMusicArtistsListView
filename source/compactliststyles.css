@@ -1,0 +1,67 @@
+div .material-card-grid .lane-content{
+	display: table;
+	width:100%;
+}
+
+div .material-card.entity-card[data-type=artist]{
+	display: table-row;
+	background-color: white;
+	height: 70px;
+	width:100%;
+	padding: 5px;
+}
+
+div .material-card.entity-card[data-type=artist] .image-wrapper{
+	display: table-cell;
+	width: 60px;
+	height: 60px;
+	border-radius: 0%;
+	padding:5px;
+}
+
+div .material-card.entity-card[data-type=artist] .image-inner-wrapper{
+	top:auto;
+}
+
+div .material-card.entity-card[data-type=artist] .image-wrapper img{
+	margin:auto;
+	width: 60px;
+	height: 60px;
+	border-radius: 0%;
+}
+
+div .material-card.entity-card[data-type=artist] .details{
+	display: table-cell;
+	width:auto;
+	height: 100%;
+	vertical-align: middle;
+	text-align: left;
+	padding:15px;
+}
+
+div .material-card.entity-card[data-type=artist] .details-inner
+{
+	display: inline-block;
+	width: auto;
+}
+
+div .material-card.entity-card[data-type=artist] .details-inner .title {
+	height: auto;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+div .material-card.entity-card[data-type=artist] .details .title.fade-out:after {
+	display: none;
+}
+
+div .material-card.entity-card[data-type=artist] .menu-container
+{
+	display: inline-block;
+}
+
+div .material-card.entity-card[data-type=artist] .details paper-icon-button.menu-anchor {
+	position:relative;
+	top:0px;
+	right:0px;
+}
